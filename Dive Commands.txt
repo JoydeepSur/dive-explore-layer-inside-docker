@@ -1,0 +1,4 @@
+   1 docker pull wagoodman/dive
+   2 docker version
+   3 docker images
+   4 docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_API_VERSION=1.40 wagoodman/dive:latest v1
